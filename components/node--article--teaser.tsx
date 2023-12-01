@@ -46,6 +46,7 @@ export function NodeArticleTeaser({ node, ...props }: NodeArticleTeaserProps) {
           strokeLinecap="round"
           strokeLinejoin="round"
           className="w-4 h-4 ml-2"
+          width={30}
         >
           <path d="M5 12h14M12 5l7 7-7 7" />
         </svg>
